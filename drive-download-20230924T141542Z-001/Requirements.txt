@@ -1,0 +1,8 @@
+1- حساب السعر من خلال العمليات الحسابية من جمع وضرب وقسمة و طرح وغيره
+2- عدم قص اي صورة او تغيير حجمها يدويا
+3- جعل فريم كل الصور له نفس الطول والعرض ولا يتغير مع تغير حجم الصورة بل عليه ملائمة جميع الصور
+4- make your design responsive min-width: 320px
+5- use grid
+6- try to make your code clean As much as you can and add comments
+7- أهتم بتقسيم ملفات مشروعك بطريقة منظمة وأهتم بتسميتها
+8- using css modules

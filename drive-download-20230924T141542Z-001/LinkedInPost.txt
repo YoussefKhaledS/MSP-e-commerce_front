@@ -1,0 +1,33 @@
+This is my second (React Hooks in 7 Days Challenge) task.
+
+In this project, you calculate the price of the current product by making a calculation between the percentage of the discount and the old price of the product, and you add the product to the cart. You can also remove the product from the cart and calculate the total price of the products in the cart.
+
+practice on:
+
+-JSX Rules and Logic
+
+-Styling with JSX
+
+-Images with JSX
+
+-Parent and Child
+
+-Using Props
+
+-Callback
+
+-Set state
+
+-CSS Modules
+
+👉Show my task here: https://similaraggressivefactorial.nourayman.repl.co/
+
+👉Project on GitHub: https://github.com/NourAyman10/MSP-Recording-Feelings
+
+#MSP_React_Hooks_in_7_Days_Challenge
+
+#MSP_ASU
+
+#ReactJs 
+
+#MSP23

@@ -1,0 +1,67 @@
+.main{
+    padding: 15px;
+    border-radius: 20px ;
+    position: relative;
+    overflow-y: scroll;
+    border: solid 1.5px var(--secondColor);
+    margin-bottom: 10px;
+    max-height: 50vh;
+}
+.main::-webkit-scrollbar {
+    display: none;
+}
+
+.main > span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 127px;
+    right: 49px;
+    background-color: white;
+    z-index: 100;
+    color: black;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    font-size: 12px;
+    font-weight: bold;
+    position: fixed;
+}
+.main > div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 100px;
+    
+}
+.main > div .image{
+    min-width: 50px;
+    height: 60px;
+    min-width: 60px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+}
+.main .details{
+    width: 100%;
+}
+.main .details > div{
+    display: flex;
+    justify-content: space-between;
+}
+.main .details  button{
+    background-color: rgb(255, 49, 49);
+    height: 25px;
+    padding: 0px 15px ;
+    border-radius: 50px;
+    font-size: 12px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.line{
+    width: 90%;
+    height: 1px !important;
+    background-color: white;
+    margin: auto;
+}

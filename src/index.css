@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+:root {
+  --mainColor: #470880;
+  --secondColor: #6697fe;
+  --mainPink: #FB2AAB;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +20,61 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(130deg, var(--mainColor), var(--secondColor));
+  height: 100vh;
+  overflow: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Bungee', cursive;
+}
+
+header {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  width: 70px;
+  margin-right: 10px;
+}
+
+button:active {
+  transform: scale(0.95);
+  transition: .2s;
+}
+button{
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.price::before {
+  content: "EGP";
+  font-size: 10px;
+}
+
+.offDetalis {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.oldprice {
+  color: black;
+  font-size: 13px;
+  text-decoration-line: line-through;
+}
+
+.offer {
+  color: rgb(112, 151, 74);
 }
